@@ -51,7 +51,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -80,6 +80,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 0
   bullettype: 0
+  bulletprehab1: {fileID: 1351787932718244, guid: 9aac0e68f1df1584c8d769a9b4fde753,
+    type: 2}
+  bulletprehab2: {fileID: 1783071061443402, guid: 9aac0e68f1df1584c8d769a9b4fde753,
+    type: 2}
+  bulletprehab3: {fileID: 1365771080864126, guid: 9aac0e68f1df1584c8d769a9b4fde753,
+    type: 2}
 --- !u!212 &212724660378612024
 SpriteRenderer:
   m_ObjectHideFlags: 1

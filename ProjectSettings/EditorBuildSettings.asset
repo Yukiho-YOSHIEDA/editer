@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/playscene.unity
     guid: 6b01215d379ad47439c18f1315d6b4ff
+  - enabled: 1
+    path: Assets/Scenes/make.unity
+    guid: 462f4b3ac5e85de47ac6644808089382
+  - enabled: 1
+    path: Assets/Scenes/kati.unity
+    guid: ad6e064ce41c61b45bd6c4372c96c028
   m_configObjects: {}
