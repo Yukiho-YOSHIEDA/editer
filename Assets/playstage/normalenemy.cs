@@ -26,8 +26,10 @@ public class normalenemy : MonoBehaviour {
             Instantiate(bulletprehab1,transform.position,transform.rotation);
             if (bullettype == 1)
             {
-                Instantiate(bulletprehab2, transform.position, transform.rotation);
-                Instantiate(bulletprehab3, transform.position, transform.rotation);
+                GameObject bullet2 = Instantiate(bulletprehab2, transform.position, transform.rotation);
+                bullet2.GetComponent<bullet_en>().setAngle(225);
+                GameObject bullet3 = Instantiate(bulletprehab3, transform.position, transform.rotation);
+                bullet3.GetComponent<bullet_en>().setAngle(315);
             }
             time2 = 0;
         }
@@ -60,11 +62,12 @@ public class normalenemy : MonoBehaviour {
     }
     public void HPdown()
     {
+        Debug.Log("のーまるHPヘリ" + HP);
         HP -= 10;
         if (HP <= 0)
         {
             shibou = true;
-           Destroy(gameObject, 2);
+           Destroy(gameObject);
         }
     }
 }

@@ -8,15 +8,15 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1327041367365994}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
 --- !u!1 &1327041367365994
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4686061102864942}
   - component: {fileID: 212724660378612024}
@@ -32,7 +32,7 @@ GameObject:
 --- !u!4 &4686061102864942
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1327041367365994}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -45,7 +45,7 @@ Transform:
 --- !u!61 &61999406013665980
 BoxCollider2D:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1327041367365994}
   m_Enabled: 1
@@ -70,7 +70,7 @@ BoxCollider2D:
 --- !u!114 &114108525994336130
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1327041367365994}
   m_Enabled: 1
@@ -80,16 +80,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 0
   bullettype: 0
-  bulletprehab1: {fileID: 1351787932718244, guid: 9aac0e68f1df1584c8d769a9b4fde753,
+  bulletprehab1: {fileID: 1609092310817300, guid: 6de495ace3aa1734595f4ca14ef72f56,
     type: 2}
-  bulletprehab2: {fileID: 1783071061443402, guid: 9aac0e68f1df1584c8d769a9b4fde753,
+  bulletprehab2: {fileID: 1609092310817300, guid: 6de495ace3aa1734595f4ca14ef72f56,
     type: 2}
-  bulletprehab3: {fileID: 1365771080864126, guid: 9aac0e68f1df1584c8d769a9b4fde753,
+  bulletprehab3: {fileID: 1609092310817300, guid: 6de495ace3aa1734595f4ca14ef72f56,
     type: 2}
 --- !u!212 &212724660378612024
 SpriteRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1327041367365994}
   m_Enabled: 1
@@ -131,3 +131,4 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

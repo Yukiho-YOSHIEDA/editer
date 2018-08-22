@@ -19,12 +19,13 @@ public class bulletsc : MonoBehaviour {
     
         if (other.CompareTag("Enemy"))
         {
-            other.gameObject.GetComponent<normalenemy>().HPdown();
             Destroy(gameObject);
+            other.gameObject.GetComponent<normalenemy>().HPdown();
         } else if(other.CompareTag("Enemy2"))
         {
-            other.gameObject.GetComponent<boss>().HPdown();
+            Debug.Log("ボスに当たったよ");
             Destroy(gameObject);
+            other.gameObject.GetComponent<boss>().HPdown();
         }
     }
 }

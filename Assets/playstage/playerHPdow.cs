@@ -54,4 +54,8 @@ public class playerHPdow : MonoBehaviour {
             }
         }
     }
+    public void HPdown()
+    {
+        plsc.HPdown();
+    }
 }
