@@ -29,7 +29,7 @@ public class mapmakwmaneger : MonoBehaviour {
 	}
     public void putitem(int i, int j, int itemunumber)
     {
-       
+       data = new mapdataasset.mapitemeposition();
         data.j = j;
         data.i = i;
         data.itemnumber = itemunumber;
@@ -44,7 +44,10 @@ public class mapmakwmaneger : MonoBehaviour {
     {
         data.buletnumber = bullettypnum;
         data.HP = HPslider.value;
-        mapdata.mapitem.Add(data);
+        mapdataasset.mapitemeposition data2 = new mapdataasset.mapitemeposition();
+        data2 = data;
+        mapdata.mapitem.Add(data2);
+        Debug.Log(data2);
         paramaterpanel.SetActive(false);
     }
 }

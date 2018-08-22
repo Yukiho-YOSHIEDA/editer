@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Name: New Alldata
   m_EditorClassIdentifier: 
   nowstage: 0
-  ablestage: 2
+  ablestage: 1
   itemprehab:
   - gazou: {fileID: 1526192759512824, guid: bd4f81d048d2c754385a4a4267011381, type: 2}
-    item: {fileID: 0}
+    item: {fileID: 1477437227589910, guid: be32432abd87de34085f94f0a8f91712, type: 2}
   - gazou: {fileID: 1639586207052032, guid: 44a1f6fe429db9643b70d6d859677aa0, type: 2}
-    item: {fileID: 0}
+    item: {fileID: 1327041367365994, guid: 2de5c54267c6a2048912ea610640fe89, type: 2}
   - gazou: {fileID: 1419541143730702, guid: 9d58db5a86bbc114a9039a7d67a44241, type: 2}
     item: {fileID: 0}
   stage:
   - mapdata: {fileID: 11400000, guid: 102707cdfb883184ebb1ea5392a46e17, type: 2}
-    mapimagepath: 
+    mapimagepath: images/apple
   - mapdata: {fileID: 11400000, guid: 228a5f6f89d83aa42b47644833916d11, type: 2}
     mapimagepath: 
   - mapdata: {fileID: 11400000, guid: fefa0b8eb64bd1e4d9ea8ec109f5f622, type: 2}

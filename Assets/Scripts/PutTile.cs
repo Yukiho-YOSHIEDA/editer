@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PutTile : MonoBehaviour {
-
+    public Vector3[,] tilepos =new Vector3[7,21];
 	// Use this for initialization
 	void Start () {
 		// プレハブ読み込み
@@ -26,7 +26,9 @@ public class PutTile : MonoBehaviour {
 
 				if(prefab != null){
 					GameObject instantObj = (GameObject) GameObject.Instantiate(prefab, tilePos, Quaternion.AngleAxis(90, Vector3.left));
-					instantObj.transform.parent = stage.transform;
+					tilepos[i,j] = tilePos;
+                    instantObj.transform.parent = stage.transform;
+                    
                     tilecont ticon = instantObj.GetComponent<tilecont>();
                     ticon.i = i;ticon.j = j;
 
