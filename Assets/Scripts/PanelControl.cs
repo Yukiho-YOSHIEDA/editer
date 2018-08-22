@@ -18,6 +18,6 @@ public class PanelControl : MonoBehaviour {
 	}
 
 	public void OnClicked(){
-		gameObject.GetComponent<Renderer>().material.color = Color.blue;
+		gameObject.GetComponent<Renderer>().material.color = Color.white;
 	}
 }

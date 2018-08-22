@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aca4ecfd7c80304ca2742b2b999732c, type: 3}
+  m_Name: New Alldata
+  m_EditorClassIdentifier: 
+  nowstage: 0
+  ablestage: 2
+  itemprehab:
+  - gazou: {fileID: 1526192759512824, guid: bd4f81d048d2c754385a4a4267011381, type: 2}
+    item: {fileID: 0}
+  - gazou: {fileID: 1639586207052032, guid: 44a1f6fe429db9643b70d6d859677aa0, type: 2}
+    item: {fileID: 0}
+  - gazou: {fileID: 1419541143730702, guid: 9d58db5a86bbc114a9039a7d67a44241, type: 2}
+    item: {fileID: 0}
+  stage:
+  - mapdata: {fileID: 11400000, guid: 102707cdfb883184ebb1ea5392a46e17, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: 228a5f6f89d83aa42b47644833916d11, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: fefa0b8eb64bd1e4d9ea8ec109f5f622, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: d836807588d96c946bc0cae97a6006e2, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: 0510b1939da21a44aaececf4a2d19d17, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: c30892c9020f99341b7f05fa084bb656, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: 7d10cad4cefc0844db21fd55cb2cd107, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: bfaca11c19b5e8e48ab5998ba4729cb6, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: 15137610edeabc94e925b7bd5cd28bd5, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: 6b7318abaf4a27a48a29bd7253d4765c, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: b25580dcac3b2164086f72cfd31ec01d, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: ed3b9c39a17d3c24eb0af0dac3de0348, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: e1656a49004add04e901363353dad289, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: a0e203649c6f976408406ebab2f02d66, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: c0bdef472999f1d4c84a87355a190209, type: 2}
+    mapimagepath: 
+  - mapdata: {fileID: 11400000, guid: a32f4a1baa409b04d83a65e07d89b5c6, type: 2}
+    mapimagepath: 

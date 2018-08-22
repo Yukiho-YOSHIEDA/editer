@@ -27,6 +27,9 @@ public class PutTile : MonoBehaviour {
 				if(prefab != null){
 					GameObject instantObj = (GameObject) GameObject.Instantiate(prefab, tilePos, Quaternion.AngleAxis(90, Vector3.left));
 					instantObj.transform.parent = stage.transform;
+                    tilecont ticon = instantObj.GetComponent<tilecont>();
+                    ticon.i = i;ticon.j = j;
+
 				}
 
 			}
